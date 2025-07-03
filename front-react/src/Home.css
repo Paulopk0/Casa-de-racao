@@ -1,0 +1,52 @@
+.buscar-comida-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.buscar-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buscar-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.buscar-form button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buscar-form button:hover {
+  background-color: #2980b9;
+}
+
+.buscar-erro {
+  color: #c0392b;
+  background-color: #fdecea;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buscar-resultado ul {
+  list-style: none;
+  padding: 0;
+}
+
+.buscar-resultado li {
+  padding: 6px 0;
+}
